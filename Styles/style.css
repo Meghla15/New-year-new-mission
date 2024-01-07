@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500;700&display=swap');
+*{
+   
+    font-family: 'Merriweather', serif;
+}
+/* Header style */
+.first-banner-img img{
+    margin: 40px 105px 60px;
+    width: 1120px;
+    height: 600px;
+    border-radius: 12px;
+    background: linear-gradient(180deg, black, white);
+    
+} 
+.first-banner{
+    position: absolute;
+    top: 140px;
+    right: 410px;
+    font-family: 'Merriweather', serif;
+}
+.banner-sub-title{
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 400;
+}
+.banner-title{
+    color: white;
+    font-weight: 900;
+    font-size: 68px;
+    width: 550px;
+    text-align: center;
+} 
+/* main  */
+ /* first section   */
+
+ .off-title{
+    text-align: center;
+    color:orangered;
+    text-align: center;
+    font-size: 80px;
+    font-weight: 700;
+    font-family: 'Inter', sans-serif;
+    margin-bottom: 25px;
+ }
+ .off-description{
+    text-align: center;
+    color: orangered;
+    font-size: 20px;
+    font-weight: 500px;
+    font-family: 'Inter', sans-serif;
+   
+ }
+ .off-sub-title{
+    text-align: center;
+    font-size: 40px;
+    font-weight: 700;
+    font-family: 'Inter', sans-serif;
+ }
+ .off-img{
+     display: block;
+     margin-left: auto;
+     margin-right: auto;
+     width: 60%;
+ }
+ /* second banner  */
+ 
+ section.bg-banner {
+    background-image: linear-gradient(to left, rgba(245, 246, 252, 0.52), rgb(0 0 0 / 78%)), url(../image/Vectorrr.png);
+    width: 1320px;
+    height: 600px;
+    background-repeat: no-repeat;
+    justify-content: space-around;
+    margin: auto;
+}
+
+.img-content {
+    padding: 40px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.content-left h1 {
+    font-size: 35px;
+    color: white;
+}
+
+.content-left p {
+    font-size: 18px;
+    color: white;
+    width: 525px;
+    padding-bottom: 10px;
+}
+ /* third.section  */
+ .text p span{
+     color: orangered;
+     text-align: center;
+ }
+ .third-section{
+    background: linear-gradient(180deg, pink);
+    width: 1120px;
+    height: 300px;
+    margin: 30px auto;
+ }
