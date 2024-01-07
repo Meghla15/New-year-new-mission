@@ -3,10 +3,11 @@
 *{
    
     font-family: 'Merriweather', serif;
+ 
 }
 /* Header style */
 .first-banner-img img{
-    margin: 40px 105px 60px;
+    margin: 40px 110px;
     width: 1120px;
     height: 600px;
     border-radius: 12px;
@@ -68,11 +69,12 @@
  
  section.bg-banner {
     background-image: linear-gradient(to left, rgba(245, 246, 252, 0.52), rgb(0 0 0 / 78%)), url(../image/Vectorrr.png);
-    width: 1320px;
+    width: 1120px;
     height: 600px;
+    border-radius: 8px ;
     background-repeat: no-repeat;
     justify-content: space-around;
-    margin: auto;
+    margin:80px auto;
 }
 
 .img-content {
@@ -83,24 +85,89 @@
 }
 
 .content-left h1 {
-    font-size: 35px;
+    font-size: 60px;
     color: white;
+    width: 630px;
+   letter-spacing: 4px;
 }
 
 .content-left p {
-    font-size: 18px;
+    font-size: 14px;
     color: white;
-    width: 525px;
+    width: 650px;
     padding-bottom: 10px;
 }
  /* third.section  */
  .text p span{
      color: orangered;
-     text-align: center;
+     
  }
  .third-section{
-    background: linear-gradient(180deg, pink);
+    background: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
     width: 1120px;
     height: 300px;
     margin: 30px auto;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+   
+ }
+ .text{
+    padding-top: 60px;
+   font-weight: 900;
+
+ }
+ .btn button{
+    display: inline-flex;
+    padding: 16px 32px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 8px;
+    border: 0px;
+    background: orangered;
+    color:white;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 700;
+    margin-top: 15px;
+    cursor: pointer;
+ }
+ button:hover{
+    background-color: chocolate;
+
+ }
+ /* Fourth-section  */
+ /* .fourth-section-img{
+    border-radius: 450px;
+    border: 15px solid orangered;
+    width: 405px;
+    height: 405px;
+    position: absolute;
+ } */
+ .fourth-section{
+    margin-top: 120px;
+ }
+ .best-offer{
+    display: flex;
+    justify-content: space-around; 
+   
+ }
+ .fourth-section-title{
+    color: orangered;
+    font-size: 20px;
+    font-weight: 500px;
+   
+ }
+ .fourth-section-column h1{
+    font-size: 45px;
+    font-weight: 900;
+ }
+ .fourth-section-column h2{
+    font-size: 40px;
+    color: orangered;
+ }
+ .fourth-section-column p{
+    width: 380px;
+    font-size: 16px;
+    font-weight: 400;
  }
