@@ -171,3 +171,165 @@
     font-size: 16px;
     font-weight: 400;
  }
+ /* fourth section  */
+ .discount{
+    margin-top: 60px;
+    font-size: 20px;
+    font-weight: 500;
+    text-align: center;
+ }
+ .discount h1 span{
+    color: orangered;
+    font-size: 60px;
+    font-weight: 900;
+    text-align: center;
+  }
+  .discount h1{
+    font-size: 60px;
+    font-weight: 900;
+    margin-top: 10px;
+  }
+  .discount p{
+    width: 800px;
+    color: gray;
+    margin: auto;
+    font-size: 16px;
+    font-weight: 400;
+}
+.fifth-section-img{
+    display: flex;
+    margin-top: 45px;
+}
+#box{
+    width: 600px;
+    height: 500px;
+   
+}
+#girl{
+    width: 420px;
+    height: 430px;
+}
+#fifty{
+    width: 206px;
+    height: 206px;
+    
+}
+ 
+/* sixth-section  */
+.portfolio h3{
+    color: orangered;
+    font-size: 20px;
+    font-weight: 500;
+    margin-left: 200px;
+    margin-top: 100px;
+}
+.portfolio h1{
+    font-size: 45px;
+    font-weight: 900px;
+    margin-top: 5px;
+    margin-left: 195px;
+}
+.portfolio p{
+    color: gray;
+    width: 600px;
+    font-size: 16px;
+    font-weight: 400;
+    margin-left: 200px;
+    margin-top: 5px;
+}
+.portfolio-img img{
+    width: 300px;
+    height: 330px;
+}
+.portfolio-img {
+    display: grid;
+    grid-template-columns: repeat(3,300px);
+    grid-template-rows: 330px;
+    row-gap: 10px;
+    column-gap: 10px;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    
+}
+/* seventh section  */
+.submit-here{
+    border-radius: 16px;
+    background: rgba(255, 0, 0, 0.05);
+    width: 1120px;
+    height: 500px;
+    margin: 100px auto;
+}
+#letter-img{
+    height: 130px;
+    width: 130px;
+    padding: 25px 550px 0px 480px;
+}
+.letter h2{
+    font-size: 38px;
+    font-weight: 900;
+    text-align: center;
+}
+.letter p{
+    font-size: 14px;
+    font-weight: 400;
+    width: 600px;
+    text-align: center;
+    padding-left: 250px;
+    color: gray;
+}
+.submit-here form{
+    margin-left: 250px;
+}
+.submit-here form input{
+     width: 400px;
+     height: 50px;
+     border: 0px;
+     border-radius: 1px solid white ;
+     
+}
+.submit-here button{
+    width: 200px;
+    height: 55px;
+    border-radius: 0px 50px 50px 0px;
+    border: 0;
+    background:orangered;
+    font-size: 16px;
+    font-weight: 600;
+    color: white;
+    cursor: pointer;
+}
+button:hover{
+    background-color: chocolate;
+}
+/* footer style  */
+footer{
+    background: #070211;
+}
+.footer{
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    padding: 80px;
+}
+.footer-column p{
+    width: 300px;
+    font-size: 16px;
+    font-weight: 500;
+}
+hr{
+    width: 80%;
+    height: 0.5px;
+    color: white;
+    text-align: left;
+    margin: 5px  auto;
+}
+.footer-img img{
+ 
+  justify-content: center;
+  align-items: center;
+}
+.footer-text {
+    color: white;
+    justify-content: space-between;
+}
